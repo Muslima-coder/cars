@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cars</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <style type="text/tailwindcss">
+        @layer utilities {
+          .content-auto {
+            content-visibility: auto;
+          }
+        }
+      </style>
+</head>
+<body>
+    <header>
+        <div class="containers header">
+            <div class="pt-[60px] flex justify-center mb-[32px]">
+            <img  src="./images/cars.logo.svg" alt="img">
+            </div>
+           <div >
+            <h2 class="w-[301px] text-center mx-auto text-[rgba(0,0,0,1)] text-[18px]  font-normal">BETTER UTILITY THAN A TRUCK WITH MORE PERFORMANCE THAN A SPORTS CAR</h2>
+            <div class="flex justify-center "> 
+                <button class="border-[rgba(255,255,255,1)] border-[4px] mt-[485px] py-[14px] px-[119px] text-[rgba(255,255,255,1)] font-medium text-[20px] leading-[26px]">Order now</button></div>
+           </div>
+        </div>
+    </header>
+
+
+
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+              }
+            }
+          }
+        }
+      </script>
+    <script src="https://cdn.tailwindcss.com"></script>
+</body>
+</html>

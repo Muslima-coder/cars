@@ -28,3 +28,13 @@
     
     height:812px ;
 }
+@media (min-width:1024px){
+  .header{
+    background-image: url(../images/header.deks.bg.png);
+    background-repeat: no-repeat;
+     background-size: cover ;
+     background-position: center center;
+    
+    height:900px ;
+  }
+}

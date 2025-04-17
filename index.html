@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cars</title>
     <link rel="stylesheet" href="./css/main.css">
+    <link rel="icon" href="./images/cars.logo.svg">
     <style type="text/tailwindcss">
         @layer utilities {
           .content-auto {
@@ -14,15 +15,16 @@
       </style>
 </head>
 <body>
-    <header>
-        <div class="containers header">
+  <!-- Header part -->
+    <header >
+        <div  class="containers header">
             <div class="sm:py-[50px]  pt-[60px] flex justify-center mb-[32px]">
             <img  src="./images/cars.logo.svg" alt="img">
             </div>
            <div >
-            <h2 class="w-[301px] sm:w-full sm:text-[24px] text-center mx-auto text-[rgba(0,0,0,1)] text-[18px]  font-normal">BETTER UTILITY THAN A TRUCK WITH MORE PERFORMANCE THAN A SPORTS CAR</h2>
+            <h2 class=" w-[301px]  sm:w-full sm:text-[24px] text-center mx-auto text-[rgba(0,0,0,1)] text-[18px]  font-normal">BETTER UTILITY THAN A TRUCK WITH MORE PERFORMANCE THAN A SPORTS CAR</h2>
             <div class="flex justify-center "> 
-                <button class="sm:mt-[500px] sm:py-[14px] sm:px-[62px] hover:bg-[rgba(255,255,255,1)] hover:text-black duration-4000 hover:rounded-[100px] border-[rgba(255,255,255,1)] border-[4px] mt-[485px] py-[14px] px-[119px] text-[rgba(255,255,255,1)] font-medium text-[20px] leading-[26px]">Order now</button></div>
+                <button class="sm:mt-[500px] sm:py-[14px] sm:px-[62px] hover:bg-[rgba(255,255,255,1)] hover:text-black duration-4000 hover:rounded-[100px] border-[rgba(255,255,255,1)] border-[4px] mt-[485px] py-[14px] px-[119px] text-[rgba(255,255,255,1)] font-medium text-[20px] leading-[26px]"> Order now</button></div>
            </div>
         </div>
     </header>
@@ -31,8 +33,8 @@
         <section>
             <div class="containers hero bg-black">
                 <ul class="sm:px-[135px] sm:py-[200px] py-[180px] px-[20px]">
-                    <li class="sm:flex sm:gap-[42px] sm:w-full w-[335px] mx-auto">
-                        <div ><strong class="uppercase font-semibold text-[24px] text-[rgba(255,255,255,1)] mb-[12px]">EXOSKELETON</strong>
+                    <li  class=" sm:flex sm:gap-[42px] sm:w-full w-[335px] mx-auto">
+                        <div  ><strong class="uppercase font-semibold text-[24px] text-[rgba(255,255,255,1)] mb-[12px]">EXOSKELETON</strong>
                             <p class="uppercase  sm:text-[20px] sm:leading-[30px] font-normal text-[rgba(255,255,255,1)] text-[16px] leading-[26px] mb-[28px]">Cybertruck is built with an exterior shell made for ultimate durability and passenger protection. Starting with a nearly impenetrable exoskeleton, every component is designed for superior strength and endurance, from Ultra-Hard 30X Cold-Rolled stainless-steel structural skin to Tesla armor glass.</p></div>
                        <img src="./images/hero-img1.png" alt="img">
                     </li>
@@ -42,7 +44,6 @@
                             <p class="uppercase  sm:text-[20px] sm:leading-[30px] font-normal text-[rgba(255,255,255,1)] text-[16px] leading-[26px] mb-[28px]"> If there was something better, we’d use it. Help eliminate dents, damage and long-term corrosion with a smooth monochrome exoskeleton that puts the shell on the outside of the car and provides you and your passengers maximum protection.</p></div>
                        <img src="./images/hero-img2.png" alt="img">
                     </li>
-                    <!-- ... -->
                     <li class="sm:w-full w-[335px] mx-auto pt-[70px]">
                         <strong class="uppercase font-semibold text-[24px] text-[rgba(255,255,255,1)] mb-[12px]">VERSATILE UTILITY</strong>
                         <p class="uppercase sm:text-[20px] sm:leading-[30px]  font-normal text-[rgba(255,255,255,1)] text-[16px] leading-[26px] mb-[28px]"> With up to 3,500 pounds of payload capacity and adjustable air suspension, Cybertruck is the most powerful tool we have ever built, engineered with 100 cubic feet of exterior, lockable storage — including a magic tonneau cover that is strong enough to stand on.</p>
@@ -70,8 +71,10 @@
                 <img class="hidden sm:block"  src="./images/footer-d1.png" alt="d img" width="897" height="436">
             </div>
             <div class="flex justify-end pr-[20px] mt-[40px]">
-                <img class="sm:hidden" src="./images/footer2.svg" alt="img">
+                <a href="/">
+                  <img class="sm:hidden" src="./images/footer2.svg" alt="img">
                 <img  class="hidden sm:block" src="./images/footer-d2.png" alt="d img2">
+                </a>
             </div>
         </div>
      </footer>
